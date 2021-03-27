@@ -1,0 +1,62 @@
+html {
+    overflow-y: scroll;
+}
+.content {
+    max-width: 200px;
+    margin: auto;
+}
+Body {
+    position: absolute;
+    font-size:25px;
+}
+table, th, td { 
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th { 
+    background-color: rgba(65, 179, 36, 0.705);
+    color: white;
+    width : 10%;
+    padding: 15px;
+}
+table{ 
+    width : 40%;  
+}
+table.style1{
+    float:left;
+}
+table.style2{
+    display: none;
+    float:right;
+}
+div {
+    clear:both;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: rgb(158, 156, 156);}
+tr {
+    text-align: center; 
+}
+h2 {
+    font-size:20px;
+}
+.pagination_section {
+    position:absolute;
+    right: 480px;
+}
+  
+.pagination_section a {
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+.pagination_section a:hover:not(.active) {
+    background-color: #031F3B;
+    color: white;
+}
+  
+a:nth-child(5) {
+    background-color: green;
+    color: white;
+}
